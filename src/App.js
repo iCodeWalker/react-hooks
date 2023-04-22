@@ -6,6 +6,7 @@ import UseRefTutorial from "./components/useRefTutorial";
 import UseLayoutEffectTutorial from "./components/useLayoutEffectTutorial";
 import UseImperativeHandleTutorial from "./components/useImperativeHandle";
 import UseContextTutorial from "./components/useContextTutorial";
+import UseMemoTutorial from "./components/useMemoTutorial";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <UseLayoutEffectTutorial />
       <UseImperativeHandleTutorial />
       <UseContextTutorial />
+      <UseMemoTutorial />
     </div>
   );
 }
