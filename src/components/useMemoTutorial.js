@@ -5,6 +5,9 @@ import axios from "axios";
 // Main reason to use this hook is to increase performance and decrease latency on huge or expensive
 // computations that we make in our application.
 
+// with useMemo we store a value that is memoized from a function that returns some sort of value.
+// we can store a value in the variable.
+
 import { useEffect, useState, useMemo } from "react";
 
 const UseMemoTutorial = () => {
