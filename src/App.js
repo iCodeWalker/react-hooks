@@ -4,6 +4,7 @@ import UseStateTutorial from "./components/useStateTutorial";
 import UseReducerTutorial from "./components/useReducerTutorial";
 import UseEffectTutorial from "./components/useEffectTutorial";
 import UseRefTutorial from "./components/useRefTutorial";
+import UseLayoutEffectTutorial from "./components/useLayoutEffectTutorial";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <UseReducerTutorial />
       <UseEffectTutorial />
       <UseRefTutorial />
+      <UseLayoutEffectTutorial />
     </div>
   );
 }
